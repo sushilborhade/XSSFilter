@@ -1,0 +1,12 @@
+server:
+ port: 9095
+spring:
+  application:
+    name: XSSFilter
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: TRACE
+
+skip_words: not good words,bad words,XXXX,<script,
